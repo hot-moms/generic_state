@@ -40,7 +40,7 @@ sealed class DataActionState<DataEntity extends Object?>
     }
   }
 
-  Stream<DataActionState> mutateData({
+  Stream<DataActionState<DataEntity>> mutateData({
     required Future<DataEntity> Function() body,
     bool shouldRethrow = false,
     Duration finishDelay = Duration.zero,

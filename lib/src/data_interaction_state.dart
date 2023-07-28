@@ -34,7 +34,7 @@ sealed class DataInteractionState<DataEntity extends Object?>
     }
   }
 
-  Stream<DataInteractionState> mutateFromFuture({
+  Stream<DataInteractionState<DataEntity>> mutateFromFuture({
     required Future<DataEntity> Function() body,
     bool shouldRethrow = false,
     void Function(Object? error, StackTrace stackTrace)? logError,
