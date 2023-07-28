@@ -1,6 +1,6 @@
 name: generic_state
 description: A predefined states that can be used with any state management solution independently (Controller/BLoC/ChangeNotifier/Stream)
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/hot-moms/generic_state
 issue_tracker: https://github.com/hot-moms/generic_state/issues
 homepage: https://github.com/hot-moms/generic_state
