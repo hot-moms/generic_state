@@ -1,9 +1,9 @@
 name: generic_state
 description: A predefined states that can be used with any state management solution independently (Controller/BLoC/ChangeNotifier/Stream)
 version: 0.1.1
-repository: https://github.com/hot-moms/generic_state
-issue_tracker: https://github.com/hot-moms/generic_state/issues
-homepage: https://github.com/hot-moms/generic_state
+repository: https://github.com/kitsuniru/generic_state
+issue_tracker: https://github.com/kitsuniru/generic_state/issues
+homepage: https://github.com/kitsuniru/generic_state
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
